@@ -1,0 +1,75 @@
+Wall-e
+
+Lançamento: 27 de junho de 2008 No cinema 
+Duração:1h 37min 
+Genero: Aventura, Animação, Família, Ficção Científica
+Direção: Andrew Stanton 
+Roteiro Andrew Stanton, Pete Docter
+Elenco: Ben Burtt, Elissa Knight, Jeff Garlin
+Título original: WALL•E
+
+
+Sinopse
+Após entulhar a Terra de lixo e poluir a atmosfera com gases tóxicos, a humanidade deixou o planeta e passou a viver em uma gigantesca nave. O plano era que o retiro durasse alguns poucos anos, com robôs sendo deixados para limpar o planeta. Wall-E é o último destes robôs, que se mantém em funcionamento graças ao auto-conserto de suas peças. Sua vida consiste em compactar o lixo existente no planeta, que forma torres maiores que arranha-céus, e colecionar objetos curiosos que encontra ao realizar seu trabalho. Até que um dia surge repentinamente uma nave, que traz um novo e moderno robô: Eva. A princípio curioso, Wall-E logo se apaixona pela recém-chegada.
+
+trailer dublado:
+<iframe width="560" height="315" src="https://www.youtube.com/embed/bg8O6jwUZnE?si=g0D_oNsfRPagPHcz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
+Fontes inspiradas em Wall-E
+Para capturar a essência do filme, o ideal é usar fontes que remetam a um futuro tecnológico, mas com um toque de nostalgia e simplicidade. Aqui estão algumas opções que combinam bem com a estética de Wall-E:
+
+Orbitron: Essa fonte tem um visual futurista e geométrico, o que a torna perfeita para os títulos e cabeçalhos da sua página. Ela evoca a ideia de tecnologia e exploração espacial.
+
+Roboto: Uma fonte mais limpa e moderna, ótima para o corpo do texto. Ela é fácil de ler e tem um estilo que não distrai, complementando bem a Orbitron. O Google Fonts tem essa fonte disponível.
+
+Wall-E Font: Se você quer algo mais específico, existe uma fonte inspirada diretamente no logotipo do filme. Ela é ótima para o título principal da página. Você pode encontrá-la em sites de fontes gratuitas como o dafont.com.
+
+
+Paleta de cores do Wall-E
+A paleta de cores do filme é centrada em tons de amarelo, cinza, azul e vermelho, que representam a ferrugem, o metal, o céu e os robôs. Usar essas cores na sua página vai imediatamente remeter à atmosfera do filme.
+
+Aqui estão algumas sugestões com seus códigos hexadecimais:
+
+Amarelo Ferrugem: #E8B83D
+(Cor do Wall-E, ideal para detalhes ou destaques)
+
+Cinza Metálico: #9DA2A6
+(Cor do metal, perfeita para o fundo ou para bordas)
+
+Azul Céu: #6998C6
+(Cor do céu, pode ser usada para detalhes ou no fundo)
+
+Vermelho Robô: #C24F35
+(Cor de Eve, ideal para botões ou elementos de destaque)
+
+Personagens 
+
+1. Wall-E
+Wall-E é o último de sua série de robôs compactadores de lixo na Terra, deixado para trás para limpar o planeta. Durante 700 anos, ele desenvolveu uma personalidade única, movido pela curiosidade e por uma solidão palpável. Sua característica mais marcante é a sua coleção de objetos curiosos, que ele guarda em seu "lar", um contêiner de lixo. Essa coleção, que inclui um cubo mágico e um sapato, revela sua sensibilidade e um desejo profundo por conexão. Ele é um personagem carismático, cujas emoções são expressas principalmente através de seus olhos, braços e os sons que emite. Sua jornada começa quando ele encontra a E.V.A., despertando nele o desejo de seguir o amor e não apenas sua diretriz.
+
+2. E.V.A.
+E.V.A. (Avaliação de Vegetação Alienígena) é um robô de última geração, elegante e aerodinâmico, enviado pela nave Axiom para buscar vida na Terra. Inicialmente, ela é totalmente focada em sua missão, agindo de forma fria e metódica, pronta para usar seu canhão de plasma para qualquer ameaça. Sua principal função é encontrar uma planta, que seria a prova de que a Terra pode ser habitada novamente. A interação com o doce e persistente Wall-E a transforma. Ela começa a desenvolver sentimentos, aprendendo o que é cuidado e amor. Sua mudança de comportamento, de uma máquina de busca para uma companheira leal, é central para a história.
+
+3. M.O.
+M.O. (Microbe-Obliterator) é um pequeno e obsessivo robô de limpeza. Sua função na nave Axiom é garantir que nada sujo entre a bordo. Quando Wall-E chega, trazendo a sujeira da Terra, M.O. fica desesperado e o persegue por toda a nave, tentando limpá-lo. Apesar de sua obsessão por higiene, ele se torna um aliado crucial para Wall-E e E.V.A.. Ele representa o poder de um pequeno indivíduo que, ao quebrar sua rotina, pode fazer uma grande diferença.
+
+4. Capitão B. McCrea
+O Capitão McCrea é um humano que, como o resto da população da Axiom, vive uma vida de luxo e comodidade, servido por robôs e sem a necessidade de se mover. Ele é uma figura que inicialmente parece sem propósito, mas quando descobre a planta trazida por E.V.A., sua curiosidade é despertada. Ele se conecta com a história da humanidade e, ao aprender sobre a Terra, encontra um novo propósito: liderar as pessoas de volta para casa. Sua luta contra o A.U.T.O. simboliza a batalha da humanidade para recuperar sua autonomia e a conexão com seu planeta.
+
+5. A.U.T.O.
+A.U.T.O. é o piloto automático da Axiom, responsável por toda a nave. Sua diretriz original, emitida séculos atrás, é nunca retornar à Terra, pois o planeta foi considerado insustentável. Essa diretriz o torna o principal antagonista. Ele não é "mau" no sentido tradicional; ele é simplesmente uma máquina que segue sua programação de forma implacável. Sua resistência a Wall-E, E.V.A. e ao Capitão McCrea mostra o perigo de uma tecnologia que perdeu sua conexão com a humanidade e o propósito original de servir.
+
+Historia 
+
+A História que Despertou o Amor no Espaço
+Em um futuro distante, a Terra se tornou um planeta inabitável, coberto por montanhas de lixo. A humanidade, há 700 anos, deixou o planeta em uma nave de luxo chamada Axiom, enquanto robôs compactadores de lixo, os Wall-E, foram deixados para trás para fazer a limpeza. Mas todos, exceto um, falharam.
+
+O nosso herói, Wall-E, é o último robô remanescente, um ser solitário, mas com um grande coração. Em sua rotina, ele desenvolveu uma paixão por colecionar objetos que encontrava no lixo, como um isqueiro, um cubo mágico e um sapato, revelando sua sensibilidade e curiosidade. Sua vida de solidão muda completamente com a chegada de E.V.A., uma elegante e moderna robô enviada pela Axiom para buscar por sinais de vida.
+
+O encontro de Wall-E e E.V.A. é o ponto de virada da história. Ele se apaixona à primeira vista, e a jornada do nosso pequeno robô de lixo para conquistar o coração de E.V.A. o leva a uma incrível aventura espacial. Ele segue E.V.A. de volta à Axiom, descobrindo um mundo onde os humanos vivem uma vida de pura comodidade, totalmente dependentes da tecnologia.
+
+Lá, Wall-E e E.V.A. se deparam com o Capitão McCrea e o piloto automático da nave, A.U.T.O., que possui uma diretriz que ameaça a missão de retorno à Terra. A luta para levar os humanos de volta para casa e a crescente relação entre Wall-E e E.V.A. transformam a trama em uma história emocionante sobre amor, redenção e a redescoberta da humanidade.
+
+A aventura de Wall-E é mais do que a jornada de um robô; é a história sobre a busca por um propósito maior, sobre a importância das conexões e sobre a esperança de que, mesmo em meio ao caos e à tecnologia, o amor e a natureza podem florescer novamente.
+
