@@ -65,6 +65,58 @@ li:hover{
     height: 136px;
 }
 
+
+@media(min-width: 360px){
+    header{
+        background-color: white;
+        width: 100%;
+        display: grid;
+        grid-template-rows: repeat(2, 1fr);
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 12px 0 4px 0;
+        margin-bottom: 12px;
+        box-shadow: 0 4px 8px var(--cor2);
+    }
+
+    #logo{
+        width: 200px;
+        height: auto;
+        align-items: center;
+    }
+
+    nav{
+        width: 200px;
+    }
+
+    ul{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    li{
+        font-family: "Orbitron", sans-serif;
+        color: var(--cor2);
+        font-size: 12px;
+        font-weight: bolder;
+        transition: .4s;
+        cursor: pointer;
+    }
+
+    li:hover{
+        color: #E8B83D;
+        font-weight: bolder;
+    }
+
+    .banner{
+        background-image: url("imagens/walle-banner.jpeg");
+        background-position: 16%;
+        background-size: cover;
+        height: 120px;
+    }
+}
+
 @media(min-width: 768px){
     header{
         background-color: white;
