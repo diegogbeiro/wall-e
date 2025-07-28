@@ -9,15 +9,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
 /* font-family: "Orbitron", sans-serif; */
 
+:root{
+    --cor1:#E8B83D; /*Amarelo Ferrugem - Cor do Wall-E, ideal para detalhes ou destaques*/
+    --cor2:#9DA2A6; /*Cinza Metálico - CCor do metal, perfeita para o fundo ou para bordas*/ 
+    --cor3:#6998C6; /*Azul Céu - Cor do céu, pode ser usada para detalhes ou no fundo*/
+    --cor4:#C24F35; /*Vermelho Robô - Cor de Eve, ideal para botões ou elementos de destaque*/
+}
+
 header{
     background-color: white;
     width: 100%;
     display: grid;
     grid-template-rows: repeat(2, 1fr);
-    row-gap: 4px;
     justify-content: space-evenly;
     align-items: center;
-    padding-top: 20px 0 20px 0;
+    padding: 12px 0 4px 0;
+    margin-bottom: 12px;
+    box-shadow: 0 4px 8px var(--cor2);
 }
 
 #logo{
@@ -38,7 +46,7 @@ ul{
 
 li{
     font-family: "Orbitron", sans-serif;
-    color: #6998C6;
+    color: var(--cor2);
     font-size: 12px;
     font-weight: bolder;
     transition: .4s;
@@ -52,8 +60,9 @@ li:hover{
 
 .banner{
     background-image: url("imagens/walle-banner.jpeg");
-    background-position: 100%;
+    background-position: 16%;
     background-size: cover;
+    height: 136px;
 }
 
 @media(min-width: 768px){
@@ -63,7 +72,9 @@ li:hover{
         display: flex;
         justify-content: space-evenly;
         align-items: center;
-        padding: 24px 0 24px 0;
+        padding: 12px 0 4px 0;
+        margin-bottom: 12px;
+        box-shadow: 0 4px 8px var(--cor2);
     }
 
     #logo{
@@ -83,20 +94,30 @@ li:hover{
 
     li{
         font-family: "Orbitron", sans-serif;
-        color: #6998C6;
+        color: var(--cor2);
         font-size: 20px;
         font-weight: bolder;
     }
+
+    .banner{
+        background-image: url("imagens/walle-banner.jpeg");
+        background-position: 100%;
+        background-size: cover;
+        height: 240px;
+    }
 }
 
-@media(min-width: 1280px){
+
+@media(min-width: 1024px){
     header{
         background-color: white;
         width: 100%;
         display: flex;
         justify-content: space-evenly;
         align-items: center;
-        padding: 28px 0 28px 0;
+        padding: 12px 0 4px 0;
+        margin-bottom: 12px;
+        box-shadow: 0 4px 8px var(--cor2);
     }
 
     #logo{
@@ -116,8 +137,57 @@ li:hover{
 
     li{
         font-family: "Orbitron", sans-serif;
-        color: #6998C6;
+        color: var(--cor2);
         font-size: 20px;
         font-weight: bolder;
+    }
+
+    .banner{
+        background-image: url("imagens/walle-banner.jpeg");
+        background-position: 100%;
+        background-size: cover;
+        height: 332px;
+    }
+}
+
+@media(min-width: 1280px){
+    header{
+        background-color: white;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 12px 0 4px 0;
+        margin-bottom: 12px;
+        box-shadow: 0 4px 8px var(--cor2);
+    }
+
+    #logo{
+        width: 200px;
+        height: auto;
+    }
+
+    nav{
+        width: 600px;
+    }
+
+    ul{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    li{
+        font-family: "Orbitron", sans-serif;
+        color: var(--cor2);
+        font-size: 20px;
+        font-weight: bolder;
+    }
+
+    .banner{
+        background-image: url("imagens/walle-banner.jpeg");
+        background-position: 100%;
+        background-size: cover;
+        height: 440px;
     }
 }
