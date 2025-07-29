@@ -9,6 +9,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
 /* font-family: "Orbitron", sans-serif; */
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+/* font-family: "Roboto", sans-serif; */
+
 :root{
     --cor1:#E8B83D; /*Amarelo Ferrugem - Cor do Wall-E, ideal para detalhes ou destaques*/
     --cor2:#9DA2A6; /*Cinza Metálico - CCor do metal, perfeita para o fundo ou para bordas*/ 
@@ -23,7 +26,7 @@ header{
     grid-template-rows: repeat(2, 1fr);
     justify-content: space-evenly;
     align-items: center;
-    padding: 12px 0 4px 0;
+    padding: 12px 0 12px 0;
     margin-bottom: 12px;
     box-shadow: 0 4px 8px var(--cor2);
 }
@@ -46,7 +49,7 @@ ul{
 
 li{
     font-family: "Orbitron", sans-serif;
-    color: var(--cor2);
+    color: var(--cor4);
     font-size: 12px;
     font-weight: bolder;
     transition: .4s;
@@ -65,6 +68,112 @@ li:hover{
     height: 136px;
 }
 
+main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    grid-template-rows: repeat(2, 1fr);
+}
+
+#conteudo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;    
+    align-items: center;
+}
+
+.container-trailer{
+    margin: 12px 0 12px 0 ;
+}
+
+.trailer{
+    width: 360px;
+    height: auto;
+    border-radius: 12px;
+}
+
+.sinopse{
+    width: 352px;
+}
+
+.paragrafo-sinopse{
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+    padding-bottom: 8px;
+    line-height: 1.2em;
+}
+
+footer{
+    background-color: black;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo-footer{
+    width: 160px;
+    height: auto;
+    align-items: center;
+    border-radius: 12px;
+    padding: 12px;
+    margin: 12px;
+    background-color: white;
+}
+
+span{
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+    line-height: 1.2em;
+    padding-bottom: 20px;
+}
+
+@media(min-width:344px){
+    .banner{
+        background-image: url("imagens/walle-banner.jpeg");
+        background-position: 100%;
+        background-size: cover;
+        height: 100px;
+    }
+
+    main{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        grid-template-rows: repeat(2, 1fr);
+    }   
+
+    #conteudo{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;    
+        align-items: center;
+    }
+
+    .container-trailer{ 
+        margin: 12px 0 12px 0 ;
+    }
+
+    .trailer{
+        width: 300px;
+        height: auto;
+        border-radius: 12px;
+    }
+
+    .sinopse{
+        width: 300px;
+        margin-bottom: 32px;
+    }
+
+    .paragrafo-sinopse{
+        font-family: "Roboto", sans-serif;
+        font-size: 12px;
+        padding-bottom: 8px;
+        line-height: 1.2em;
+    }
+}
 
 @media(min-width: 360px){
     header{
@@ -74,7 +183,7 @@ li:hover{
         grid-template-rows: repeat(2, 1fr);
         justify-content: space-evenly;
         align-items: center;
-        padding: 12px 0 4px 0;
+        padding: 12px 0 12px 0;
         margin-bottom: 12px;
         box-shadow: 0 4px 8px var(--cor2);
     }
@@ -97,7 +206,7 @@ li:hover{
 
     li{
         font-family: "Orbitron", sans-serif;
-        color: var(--cor2);
+        color: var(--cor4);
         font-size: 12px;
         font-weight: bolder;
         transition: .4s;
@@ -105,8 +214,11 @@ li:hover{
     }
 
     li:hover{
-        color: #E8B83D;
+        color: var(--cor1);
         font-weight: bolder;
+        background-color: var(--cor3);
+        padding: 12px;
+        border-radius: 12px;
     }
 
     .banner{
@@ -114,6 +226,13 @@ li:hover{
         background-position: 16%;
         background-size: cover;
         height: 120px;
+    }
+
+    main{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        grid-template-rows: repeat(2, 1fr);
     }
 }
 
@@ -124,7 +243,7 @@ li:hover{
         display: flex;
         justify-content: space-evenly;
         align-items: center;
-        padding: 12px 0 4px 0;
+        padding: 12px 0 12px 0;
         margin-bottom: 12px;
         box-shadow: 0 4px 8px var(--cor2);
     }
@@ -146,7 +265,7 @@ li:hover{
 
     li{
         font-family: "Orbitron", sans-serif;
-        color: var(--cor2);
+        color: var(--cor4);
         font-size: 20px;
         font-weight: bolder;
     }
@@ -156,6 +275,42 @@ li:hover{
         background-position: 100%;
         background-size: cover;
         height: 240px;
+    }
+    
+    main{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        grid-template-rows: repeat(2, 1fr);
+    }
+
+    #conteudo{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;    
+        align-items: center;
+    }
+
+    .container-trailer{
+        margin: 24px 0 12px 0 ;
+    }
+
+    .trailer{
+        width: 596px;
+        height: 248px;
+        border-radius: 12px;
+    }
+
+    .sinopse{
+        width: 596px;
+        margin-bottom: 32px;
+    }
+
+    .paragrafo-sinopse{
+        font-family: "Roboto", sans-serif;
+        font-size: 16px;
+        padding-bottom: 8px;
+        line-height: 1.2em;
     }
 }
 
@@ -167,7 +322,7 @@ li:hover{
         display: flex;
         justify-content: space-evenly;
         align-items: center;
-        padding: 12px 0 4px 0;
+        padding: 12px 0 12px 0;
         margin-bottom: 12px;
         box-shadow: 0 4px 8px var(--cor2);
     }
@@ -189,7 +344,7 @@ li:hover{
 
     li{
         font-family: "Orbitron", sans-serif;
-        color: var(--cor2);
+        color: var(--cor4);
         font-size: 20px;
         font-weight: bolder;
     }
@@ -200,6 +355,42 @@ li:hover{
         background-size: cover;
         height: 332px;
     }
+
+    main{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        grid-template-rows: repeat(2, 1fr);
+    }   
+
+    #conteudo{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;    
+        align-items: center;
+    }
+
+    .container-trailer{
+        margin: 24px 0 12px 0 ;
+    }
+
+    .trailer{
+        width: 900px;
+        height: 374px;
+        border-radius: 12px;
+    }
+
+    .sinopse{
+        width: 900px;
+        margin-bottom: 32px;
+    }
+
+    .paragrafo-sinopse{
+        font-family: "Roboto", sans-serif;
+        font-size: 20px;
+        padding-bottom: 8px;
+        line-height: 1.2em;
+    }
 }
 
 @media(min-width: 1280px){
@@ -209,7 +400,7 @@ li:hover{
         display: flex;
         justify-content: space-evenly;
         align-items: center;
-        padding: 12px 0 4px 0;
+        padding: 12px 0 12px 0;
         margin-bottom: 12px;
         box-shadow: 0 4px 8px var(--cor2);
     }
@@ -231,7 +422,7 @@ li:hover{
 
     li{
         font-family: "Orbitron", sans-serif;
-        color: var(--cor2);
+        color: var(--cor4);
         font-size: 20px;
         font-weight: bolder;
     }
@@ -241,5 +432,34 @@ li:hover{
         background-position: 100%;
         background-size: cover;
         height: 440px;
+    }
+
+     #conteudo{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;    
+        align-items: center;
+    }
+
+    .container-trailer{
+        margin: 24px 0 12px 0 ;
+    }
+
+    .trailer{
+        width: 1000px;
+        height: 416px;
+        border-radius: 12px;
+    }
+
+    .sinopse{
+        width: 1000px;
+        margin-bottom: 32px;
+    }
+
+    .paragrafo-sinopse{
+        font-family: "Roboto", sans-serif;
+        font-size: 20px;
+        padding-bottom: 8px;
+        line-height: 1.2em;
     }
 }
