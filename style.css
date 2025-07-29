@@ -110,6 +110,7 @@ footer{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    height: 200px;
 }
 
 #logo-footer{
