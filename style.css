@@ -404,6 +404,7 @@ span{
         padding: 12px 0 12px 0;
         margin-bottom: 12px;
         box-shadow: 0 4px 8px var(--cor2);
+        position: fixed;
     }
 
     #logo{
