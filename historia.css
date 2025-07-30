@@ -61,6 +61,72 @@ li:hover{
     font-weight: bolder;
 }
 
+main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    grid-template-rows: repeat(3, 1fr);
+    align-items: center;
+    justify-content: center;
+    
+} 
+
+h1{
+    font-family: "Orbitron", sans-serif;
+    font-weight: bolder;
+    font-size: 24px;
+    color: var(--cor3);
+    width: 300px;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.imagem1{
+    background-image: url("imagens/imagem1-walle.jpg");
+    background-size: 100% 100%;
+    background-position: cover;
+    border-radius: 12px;
+    width: 320px;
+    height: 200px;
+    margin-bottom: 12px;
+}
+
+p{
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+    line-height: 1.4em;
+    padding-bottom: 8px ;
+    width: 320px;
+}
+
+
+footer{
+    background-color: black;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
+#logo-footer{
+    width: 160px;
+    height: auto;
+    align-items: center;
+    border-radius: 12px;
+    padding: 12px;
+    margin: 12px;
+    background-color: white;
+}
+
+span{
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+    line-height: 1.2em;
+    padding-bottom: 20px;
+}
 
 @media(min-width:344px){
     
@@ -148,6 +214,16 @@ li:hover{
         font-size: 20px;
         font-weight: bolder;
     }
+     
+    main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    grid-template-rows: repeat(3, 1fr);
+    align-items: center;
+    justify-content: center;
+    
+} 
 
     
 }
@@ -187,6 +263,15 @@ li:hover{
         font-weight: bolder;
     }
 
+    main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    grid-template-rows: repeat(3, 1fr);
+    align-items: center;
+    justify-content: center;
+    
+} 
     
 }
 
@@ -225,5 +310,14 @@ li:hover{
         font-weight: bolder;
     }
 
+    main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    grid-template-rows: repeat(3, 1fr);
+    align-items: center;
+    justify-content: center;
+    
+} 
     
 }
