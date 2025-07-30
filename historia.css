@@ -216,14 +216,35 @@ span{
     }
      
     main{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    grid-template-rows: repeat(3, 1fr);
-    align-items: center;
-    justify-content: center;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        grid-template-rows: repeat(3, 1fr);
+        align-items: center;
+        justify-content: center;
     
-} 
+    } 
+
+    h1{
+        width: 508px;
+    }
+
+    .imagem1{
+        width: 300px;
+        height: 200px;
+    }
+
+    .paragrafo1{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 4px;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    p{
+        font-size: 16px;
+    }
 
     
 }
