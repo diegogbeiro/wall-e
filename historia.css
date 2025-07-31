@@ -91,12 +91,56 @@ h1{
     margin-bottom: 12px;
 }
 
+.imagem2{
+    background-image: url("imagens/eve\ and\ walle.jpeg");
+    background-size: 100% 100%;
+    background-position: cover;
+    border-radius: 12px;
+    width: 320px;
+    height: 200px;
+    margin-bottom: 12px;
+}
+
+.imagem3{
+    background-image: url("imagens/wall-e-and-eve.jpg");
+    background-size: 100% 100%;
+    background-position: cover;
+    border-radius: 12px;
+    width: 320px;
+    height: 200px;
+    margin-bottom: 12px;
+}
+
+.imagem4{
+    background-image: url("imagens/wall-e-humanos.jpg");
+    background-size: 100% 100%;
+    background-position: cover;
+    border-radius: 12px;
+    width: 320px;
+    height: 200px;
+    margin-bottom: 12px;
+}
+
+.imagem5{
+    background-image: url("imagens/Capitão\ McCrea.png");
+    background-size: 100% 100%;
+    background-position: cover;
+    border-radius: 12px;
+    width: 320px;
+    height: 200px;
+    margin-bottom: 12px;
+}
+
 p{
     font-family: "Roboto", sans-serif;
     font-size: 12px;
     line-height: 1.4em;
     padding-bottom: 8px ;
     width: 320px;
+}
+
+section{
+    margin: 12px 0;
 }
 
 
@@ -229,12 +273,44 @@ span{
         width: 508px;
     }
 
-    .imagem1{
+    .imagem1, .imagem2, .imagem3, .imagem4, .imagem5{
         width: 300px;
         height: 200px;
     }
 
     .paragrafo1{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 4px;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .paragrafo2{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 4px;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .paragrafo3{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 4px;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .paragrafo4{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 4px;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .paragrafo5{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         column-gap: 4px;
@@ -285,14 +361,18 @@ span{
     }
 
     main{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    grid-template-rows: repeat(3, 1fr);
-    align-items: center;
-    justify-content: center;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        grid-template-rows: repeat(3, 1fr);
+        align-items: center;
+        justify-content: center;
     
-} 
+    } 
+
+    #conteudo{
+        width: 700px;
+    }
     
 }
 
@@ -332,13 +412,33 @@ span{
     }
 
     main{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    grid-template-rows: repeat(3, 1fr);
-    align-items: center;
-    justify-content: center;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        grid-template-rows: repeat(3, 1fr);
+        align-items: center;
+        justify-content: center;
+        
+    }
     
-} 
+    #conteudo{
+        width: 900px;
+    }
+
+    .imagem1, .imagem2, .imagem3, .imagem4, .imagem5{
+        width: 400px;
+        height: 200px;
+    }
+
+    p{
+        width: 400px;
+        font-size: 16px;
+        
+    }
+
+    h1{
+        margin-bottom: 24px;
+        margin-top: 100px;
+    }
     
 }
