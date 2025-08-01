@@ -61,46 +61,61 @@ li:hover{
     font-weight: bolder;
 }
 
-.banner{
-    background-image: url("imagens/walle-banner.jpeg");
-    background-position: 16%;
-    background-size: cover;
-    height: 136px;
-}
-
 main{
     width: 100%;
+}
+
+.card-content{
     display: flex;
     flex-direction: column;
-    grid-template-rows: repeat(2, 1fr);
-}
-
-#conteudo{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;    
-    align-items: center;
-}
-
-.container-trailer{
-    margin: 12px 0 12px 0 ;
-}
-
-.trailer{
-    width: 360px;
-    height: auto;
-    border-radius: 12px;
-}
-
-.sinopse{
-    width: 352px;
-}
-
-.paragrafo-sinopse{
+    justify-content: flex-end;
+    padding: 0 0 20px 12px;
+    font-size: 16px;
     font-family: "Roboto", sans-serif;
-    font-size: 12px;
-    padding-bottom: 8px;
     line-height: 1.2em;
+}
+
+.card:hover{
+    transform: scale(1.02);
+}
+
+.card{
+    width: 96%;
+    height: 400px;
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: 1s;
+    
+}
+
+.walle{
+    background-image: url("imagens/personagens/wall-e_capa.jpg");
+}
+
+.eva{
+    background-image: url("imagens/personagens/e.v.e.jpeg");
+}
+
+.mo{
+    background-image: url("imagens/personagens/m.o.jpg");
+}
+
+.mccrea{
+    background-image: url("imagens/personagens/Capitão\ B.\ McCrea.jpeg");
+}
+
+.auto{
+    background-image: url("imagens/personagens/A.U.T.O.png");
+}
+
+p{
+    padding: 12px;
+}
+
+strong{
+    color: var(--cor4);
 }
 
 footer{
@@ -131,50 +146,6 @@ span{
     padding-bottom: 20px;
 }
 
-@media(min-width:344px){
-    .banner{
-        background-image: url("imagens/walle-banner.jpeg");
-        background-position: 100%;
-        background-size: cover;
-        height: 100px;
-    }
-
-    main{
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        grid-template-rows: repeat(2, 1fr);
-    }   
-
-    #conteudo{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;    
-        align-items: center;
-    }
-
-    .container-trailer{ 
-        margin: 12px 0 12px 0 ;
-    }
-
-    .trailer{
-        width: 300px;
-        height: auto;
-        border-radius: 12px;
-    }
-
-    .sinopse{
-        width: 300px;
-        margin-bottom: 32px;
-    }
-
-    .paragrafo-sinopse{
-        font-family: "Roboto", sans-serif;
-        font-size: 12px;
-        padding-bottom: 8px;
-        line-height: 1.2em;
-    }
-}
 
 @media(min-width: 360px){
     header{
@@ -222,18 +193,12 @@ span{
         border-radius: 12px;
     }
 
-    .banner{
-        background-image: url("imagens/walle-banner.jpeg");
-        background-position: 16%;
-        background-size: cover;
-        height: 120px;
-    }
+   
+}
 
-    main{
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        grid-template-rows: repeat(2, 1fr);
+@media(min-width:540px){
+    .card{
+        background-position: 50% 24%;
     }
 }
 
@@ -270,49 +235,29 @@ span{
         font-size: 20px;
         font-weight: bolder;
     }
-
-    .banner{
-        background-image: url("imagens/walle-banner.jpeg");
-        background-position: 100%;
-        background-size: cover;
-        height: 240px;
-    }
-    
+     
     main{
         width: 100%;
         display: flex;
         flex-direction: column;
-        grid-template-rows: repeat(2, 1fr);
-    }
-
-    #conteudo{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;    
+        grid-template-rows: repeat(3, 1fr);
         align-items: center;
-    }
+        justify-content: center;
+    
+    } 
 
-    .container-trailer{
-        margin: 24px 0 12px 0 ;
-    }
-
-    .trailer{
-        width: 596px;
-        height: 248px;
-        border-radius: 12px;
-    }
-
-    .sinopse{
-        width: 596px;
-        margin-bottom: 32px;
-    }
-
-    .paragrafo-sinopse{
-        font-family: "Roboto", sans-serif;
+    .card-content{
+        display: grid;
+        justify-content: space-evenly;
+        padding: 0 0 20px 12px;
         font-size: 16px;
-        padding-bottom: 8px;
+        font-family: "Roboto", sans-serif;
         line-height: 1.2em;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 12px;
     }
+
+    
 }
 
 
@@ -350,48 +295,31 @@ span{
         font-weight: bolder;
     }
 
-    .banner{
-        background-image: url("imagens/walle-banner.jpeg");
-        background-position: 100%;
-        background-size: cover;
-        height: 332px;
-    }
-
     main{
         width: 100%;
         display: flex;
         flex-direction: column;
-        grid-template-rows: repeat(2, 1fr);
-    }   
-
-    #conteudo{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;    
+        grid-template-rows: repeat(3, 1fr);
         align-items: center;
-    }
+        justify-content: center;
+    
+    } 
 
-    .container-trailer{
-        margin: 24px 0 12px 0 ;
-    }
-
-    .trailer{
-        width: 900px;
-        height: 374px;
+    .card {
+        width: 92%;
+        height: 360px;
+        background-size: cover;
+        background-position: 50% 36%;
         border-radius: 12px;
+        cursor: pointer;
+        transition: 1s
     }
 
-    .sinopse{
-        width: 900px;
-        margin-bottom: 32px;
+    p{
+        width: 400px;
+        font-size: 16px;
     }
-
-    .paragrafo-sinopse{
-        font-family: "Roboto", sans-serif;
-        font-size: 20px;
-        padding-bottom: 8px;
-        line-height: 1.2em;
-    }
+    
 }
 
 @media(min-width: 1280px){
@@ -402,8 +330,8 @@ span{
         justify-content: space-evenly;
         align-items: center;
         padding: 12px 0 12px 0;
-        margin-bottom: 32px;
         box-shadow: 0 4px 8px var(--cor2);
+        margin-bottom: 32px;
     }
 
     #logo{
@@ -428,39 +356,21 @@ span{
         font-weight: bolder;
     }
 
-    .banner{
-        background-image: url("imagens/walle-banner.jpeg");
-        background-position: 100%;
-        background-size: cover;
-        height: 440px;
-    }
-
-     #conteudo{
+    main{
+        width: 100%;
         display: flex;
         flex-direction: column;
-        justify-content: space-evenly;    
         align-items: center;
+        justify-content: space-evenly;
+        
+    }
+    
+    
+
+    p{
+        width: 400px;
+        font-size: 16px;
+        
     }
 
-    .container-trailer{
-        margin: 24px 0 12px 0 ;
-    }
-
-    .trailer{
-        width: 1000px;
-        height: 416px;
-        border-radius: 12px;
-    }
-
-    .sinopse{
-        width: 1000px;
-        margin-bottom: 32px;
-    }
-
-    .paragrafo-sinopse{
-        font-family: "Roboto", sans-serif;
-        font-size: 20px;
-        padding-bottom: 8px;
-        line-height: 1.2em;
-    }
 }
